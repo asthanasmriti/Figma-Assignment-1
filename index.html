@@ -1,479 +1,353 @@
-<main>
-    <!-- Hero Section -->
-    <section class="hero-section" id="home">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smriti Asthana - Front-end Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <div class="container hero-container">
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="#home" class="brand-logo" aria-label="Brand Logo">
+        <svg width="68" height="28" viewBox="0 0 68 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="14" r="12" fill="#2B2B2B"/>
+          <path d="M9 11L15 5M11 16L19 8" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="54" cy="14" r="12" fill="#2B2B2B"/>
+          <path d="M49 11L55 5M51 16L59 8" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M26 12C29 9 39 9 42 12" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M2 12H0M68 12H66" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </a>
+      <nav class="nav-links">
+        <a href="#home" class="active">Home</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#recommendations">Recommendations</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-            <div class="hero-content">
-
-                <h1>
-                    I'm Smriti Asthana
-                    <br>
-                    <span>Front-end</span> Developer
-                </h1>
-
-                <p class="hero-description">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit.
-                    Et, Volutpat Feugiat Placerat Lobortis.
-                    Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
-                </p>
-
-                <a href="#contact" class="primary-btn">
-                    HIRE ME
-                    <span>→</span>
-                </a>
-
-            </div>
-
-            <div class="hero-image">
-
-                <img
-                    src="images/hero image.png"
-                    alt="Developer sitting beside a computer"
-                >
-
-            </div>
-
-            <!-- Decorative Shapes -->
-            <span class="shape circle circle-yellow"></span>
-            <span class="shape circle circle-green"></span>
-            <span class="shape square square-blue"></span>
-
+  <main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>
+            I’m Smriti Asthana<br>
+            <span>Front-end</span> Developer
+          </h1>
+          <p class="hero-desc">
+            Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Et, Volutpat Feugiat
+            Placerat Lobortis. Natoque Rutrum Semper Sed Suspendisse Nunc Lectus.
+          </p>
+          <a href="#contact" class="btn-hire">HIRE ME &rarr;</a>
         </div>
-
+        <div class="hero-image">
+          <img src="images/hero image.png" alt="Developer illustration">
+        </div>
+      </div>
     </section>
 
-    <!-- Projects Section -->
-<section class="projects-section" id="projects">
-
-    <div class="container">
-
-        <div class="section-heading">
-            <h2>Projects</h2>
-
-            <p>
-                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua
-                Dolor Do Amet Sint. Velit Officia Consequat Duis Enim
-                Velit Mollit. Lorem Ipsum
-            </p>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Projects</h2>
+          <p>
+            Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia
+            Consequat Duis Enim Velit Mollit. Lorem Ipsum
+          </p>
         </div>
 
         <div class="projects-grid">
+          <!-- Card 1 -->
+          <article class="project-card">
+            <img src="images/project-1.png" alt="Project 1">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
 
-            <article class="project-card">
-                <img src="images/project-1.png" alt="Project 1">
+          <!-- Card 2 -->
+          <article class="project-card">
+            <img src="images/project-2.png" alt="Project 2">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
 
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+          <!-- Card 3 -->
+          <article class="project-card">
+            <img src="images/project-3.png" alt="Project 3">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
 
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                        <span>HTML</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
+          <!-- Card 4 -->
+          <article class="project-card">
+            <img src="images/project-4.png" alt="Project 4">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
 
-            <article class="project-card">
-                <img src="images/project-2.png" alt="Project 2">
+          <!-- Card 5 -->
+          <article class="project-card">
+            <img src="images/project-1.png" alt="Project 5">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
 
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+          <!-- Card 6 -->
+          <article class="project-card">
+            <img src="images/project-5.png" alt="Project 6">
+            <div class="project-details">
+              <h3>How To Make Flyer Design</h3>
+              <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
+              <div class="tech-tags">
+                <span>Typescript</span>
+                <span>ReactJs</span>
+                <span>NextJs</span>
+                <span>CSS</span>
+                <span>HTML</span>
+                <span>MongoDB</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <img src="images/project-3.png" alt="Project 3">
-
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
-
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                        <span>HTML</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <img src="images/project-4.png" alt="Project 4">
-
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
-
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                        <span>HTML</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <img src="images/project-1.png" alt="Project 5">
-
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
-
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                        <span>HTML</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="project-card">
-                <img src="images/project-5.png" alt="Project 6">
-
-                <div class="project-info">
-                    <h3>How To Make Flyer Design</h3>
-                    <p>Lorem Ipsum Dolor Sit Amet, Consecutor Adipiscing Elit And Lorem Ipsum...</p>
-
-                    <div class="project-tags">
-                        <span>Typescript</span>
-                        <span>ReactJs</span>
-                        <span>NextJs</span>
-                        <span>CSS</span>
-                        <span>HTML</span>
-                        <span>MongoDB</span>
-                    </div>
-                </div>
-            </article>
-
+    <!-- RECOMMENDATIONS SECTION -->
+    <section id="recommendations" class="recommendations-section">
+      <div class="container">
+        <div class="section-title">
+          <h2>Recommendations</h2>
+          <p>
+            Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua Dolor Do Amet Sint. Velit Officia
+            Consequat Duis Enim Velit Mollit. Lorem Ipsum
+          </p>
         </div>
 
-    </div>
+        <div class="rec-grid">
+          <article class="rec-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <h3>Great Quality!</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet.</p>
+            <div class="reviewer-info">
+              <img src="images/reviewer-1.png" alt="James Gouse">
+              <div>
+                <h4>James Gouse</h4>
+                <span>Graphic Designer</span>
+              </div>
+            </div>
+          </article>
 
-</section>
-<!-- Recommendations Section  -->
-<section class="recommendations-section" id="recommendations">
+          <article class="rec-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <h3>Amazing Work!</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet.</p>
+            <div class="reviewer-info">
+              <img src="images/reviewer-2.png" alt="Tiana Philips">
+              <div>
+                <h4>Tiana Philips</h4>
+                <span>Photographer</span>
+              </div>
+            </div>
+          </article>
 
-    <div class="container">
-
-        <div class="section-heading">
-            <h2>Recommendations</h2>
-
-            <p>
-                Amet Minim Mollit Non Deserunt Ullamco Est Sit Aliqua
-                Dolor Do Amet Sint. Velit Officia Consequat Duis Enim
-                Velit Mollit. Lorem Ipsum
-            </p>
-        </div>
-
-        <div class="testimonial-grid">
-
-            <article class="testimonial-card">
-                <div class="stars">★ ★ ★ ★ ★</div>
-                <h3>Great Quality!</h3>
-
-                <p class="testimonial-text">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
-                    Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
-                    Morbi. Morbi Donec Amet.
-                </p>
-
-                <div class="reviewer">
-                    <img src="images/reviewer-1.png" alt="James Gouse">
-                    <div>
-                        <h4>James Gouse</h4>
-                        <span>Graphic Designer</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="testimonial-card">
-                <div class="stars">★ ★ ★ ★ ★</div>
-                <h3>Amazing Work!</h3>
-
-                <p class="testimonial-text">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
-                    Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
-                    Morbi. Morbi Donec Amet.
-                </p>
-
-                <div class="reviewer">
-                    <img src="images/reviewer-2.png" alt="Tiana Philips">
-                    <div>
-                        <h4>Tiana Philips</h4>
-                        <span>Photographer</span>
-                    </div>
-                </div>
-            </article>
-
-            <article class="testimonial-card">
-                <div class="stars">★ ★ ★ ★ ★</div>
-                <h3>Great Quality!</h3>
-
-                <p class="testimonial-text">
-                    Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing
-                    Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra
-                    Morbi. Morbi Donec Amet.
-                </p>
-
-                <div class="reviewer">
-                    <img src="images/reviewer-3.png" alt="Talan Westervelt">
-                    <div>
-                        <h4>Talan Westervelt</h4>
-                        <span>Business Man</span>
-                    </div>
-                </div>
-            </article>
-
+          <article class="rec-card">
+            <div class="stars">★ ★ ★ ★ ★</div>
+            <h3>Great Quality!</h3>
+            <p>Lorem Ipsum Dolor Sit Amet, Consectetur Adipiscing Elit. Vitae Nulla Diam In Ac Dictum A Urna Viverra Morbi. Morbi Donec Amet.</p>
+            <div class="reviewer-info">
+              <img src="images/reviewer-3.png" alt="Talan Westervelt">
+              <div>
+                <h4>Talan Westervelt</h4>
+                <span>Business Man</span>
+              </div>
+            </div>
+          </article>
         </div>
 
         <div class="carousel-dots">
-            <span class="active"></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
+          <span></span>
+          <span></span>
+          <span class="active"></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div class="form-wrapper">
+          <h2>Leave ME Your Info</h2>
+          <form class="form">
+            <label>Your Full Name (Required)</label>
+            <input type="text" required>
+
+            <label>Your Email (Required)</label>
+            <input type="email" required>
+
+            <label>Subject</label>
+            <input type="text">
+
+            <label>Your Message</label>
+            <textarea rows="5" required></textarea>
+
+            <button type="submit" class="btn-submit">SEND MESSAGE</button>
+          </form>
         </div>
 
-    </div>
+        <div class="info-wrapper">
+          <h2>Contact Information</h2>
 
-</section>
-<!-- Contact Section -->
-<section class="contact-section" id="contact">
+          <div class="info-card">
+            <div class="icon-badge">⌖</div>
+            <div class="info-row"><span>Country:</span><span>Bangladesh</span></div>
+            <div class="info-row"><span>City:</span><span>Dhaka</span></div>
+            <div class="info-row"><span>Street:</span><span>35 Vatara, Badda</span></div>
+          </div>
 
-    <div class="container contact-container">
+          <div class="info-card">
+            <div class="icon-badge">✉</div>
+            <div class="info-row"><span>Email:</span><span>Youremail@Gmail.Com</span></div>
+            <div class="info-row"><span>Skype:</span><span>@Yourusername</span></div>
+            <div class="info-row"><span>Telegram:</span><span>@Yourusername</span></div>
+          </div>
 
-        <!-- Contact Form -->
-        <div class="contact-form-wrapper">
-
-            <h2>Leave ME Your Info</h2>
-
-            <form class="contact-form">
-
-                <label for="full-name">Your Full Name (Required)</label>
-                <input
-                    type="text"
-                    id="full-name"
-                    placeholder="Your Full Name"
-                    required
-                >
-
-                <label for="email">Your Email (Required)</label>
-                <input
-                    type="email"
-                    id="email"
-                    placeholder="Your Email"
-                    required
-                >
-
-                <label for="subject">Subject</label>
-                <input
-                    type="text"
-                    id="subject"
-                    placeholder="Subject"
-                >
-
-                <label for="message">Your Message</label>
-                <textarea
-                    id="message"
-                    placeholder="Your Message"
-                    required
-                ></textarea>
-
-                <button type="submit" class="primary-btn">
-                    SEND MESSAGE
-                </button>
-
-            </form>
-
+          <div class="info-card">
+            <div class="icon-badge">▣</div>
+            <div class="info-row"><span>Support Services:</span><span>15369</span></div>
+            <div class="info-row"><span>Office:</span><span>+58 (021)356 587 235</span></div>
+            <div class="info-row"><span>Personal:</span><span>+58 (021)356 587 235</span></div>
+          </div>
         </div>
+      </div>
+    </section>
 
-        <!-- Contact Information -->
-        <div class="contact-info-wrapper">
+    <!-- PARTNER LOGOS -->
+    <section class="partners-section">
+      <div class="container partners-row">
+        <div><strong>generate</strong><br><small>generation</small></div>
+        <div><span style="font-size: 26px; font-weight: 700; color: #FFB400;">GL</span></div>
+        <div><strong>B generate</strong><br><small>company</small></div>
+        <div><span style="font-size: 26px; font-weight: 700; color: #FFB400;">3</span> <strong>Business</strong></div>
+      </div>
+    </section>
+  </main>
 
-            <h2>Contact Information</h2>
-
-            <div class="contact-info-card">
-
-                <div class="contact-icon">⌖</div>
-
-                <div class="contact-detail">
-                    <span>Country:</span>
-                    <span>Bangladesh</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>City:</span>
-                    <span>Dhaka</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>Street:</span>
-                    <span>35 Vatara, Badda</span>
-                </div>
-
-            </div>
-
-            <div class="contact-info-card">
-
-                <div class="contact-icon">✉</div>
-
-                <div class="contact-detail">
-                    <span>Email:</span>
-                    <span>Youremail@Gmail.Com</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>Skype:</span>
-                    <span>@Yourusername</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>Telegram:</span>
-                    <span>@Yourusername</span>
-                </div>
-
-            </div>
-
-            <div class="contact-info-card">
-
-                <div class="contact-icon">▣</div>
-
-                <div class="contact-detail">
-                    <span>Support Services:</span>
-                    <span>15369</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>Office:</span>
-                    <span>+58 (021)356 587 235</span>
-                </div>
-
-                <div class="contact-detail">
-                    <span>Personal:</span>
-                    <span>+58 (021)356 587 235</span>
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- Partner Logos -->
-<section class="partners-section">
-
-    <div class="container partners-container">
-
-        <img src="/assets/partner-1.png" alt="Partner 1">
-
-        <img src="/assets/partner-2.png" alt="Partner 2">
-
-        <img src="/assets/partner-3.png" alt="Partner 3">
-
-        <img src="/assets/partner-4.png" alt="Partner 4">
-
-    </div>
-
-</section>
-<!-- Footer -->
-<footer class="site-footer">
-
+  <!-- FOOTER -->
+  <footer class="footer">
     <div class="container">
+      <div class="footer-logo">
+        <svg width="68" height="28" viewBox="0 0 68 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="14" cy="14" r="12" fill="#2B2B2B"/>
+          <path d="M9 11L15 5M11 16L19 8" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+          <circle cx="54" cy="14" r="12" fill="#2B2B2B"/>
+          <path d="M49 11L55 5M51 16L59 8" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M26 12C29 9 39 9 42 12" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+          <path d="M2 12H0M68 12H66" stroke="#2B2B2B" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </div>
 
-        <div class="footer-grid">
-
-            <!-- Footer Branding -->
-            <div class="footer-brand">
-
-                <img
-                    src="/assets/Rectangle 181.svg"
-                    alt="Portfolio logo"
-                    class="footer-logo"
-                >
-
-                <div class="rating-item">
-                    <img src="/assets/rating-1.png" alt="Rating badge">
-                    <p>4.5/5 Rating On Lorem</p>
-                </div>
-
-                <div class="rating-item">
-                    <img src="/assets/rating-2.png" alt="Rating badge">
-                    <p>8/13 Rating On Ipsum</p>
-                </div>
-
-                <div class="rating-item">
-                    <img src="/assets/rating-3.png" alt="Rating badge">
-                    <p>4.5/5 Rating On Dorel</p>
-                </div>
-
-            </div>
-
-            <!-- Quick Links -->
-            <div class="footer-column">
-
-                <h3>Quick Links</h3>
-
-                <a href="#home">Home</a>
-                <a href="#skills">Skills</a>
-                <a href="#education">Education</a>
-                <a href="#projects">Projects</a>
-                <a href="#recommendations">Recommendations</a>
-
-            </div>
-
-            <!-- Portfolio -->
-            <div class="footer-column">
-
-                <h3>Portfolio</h3>
-
-                <a href="#projects">Frontend Development</a>
-                <a href="#projects">Backend Development</a>
-                <a href="#projects">Website Design</a>
-                <a href="#projects">Machine Learning</a>
-                <a href="#projects">Problem Solving & DSA</a>
-
-            </div>
-
-            <!-- Social Links -->
-            <div class="footer-column social-column">
-
-                <h3>Connect</h3>
-
-                <a href="#" target="_blank">LinkedIn</a>
-                <a href="#" target="_blank">Instagram</a>
-                <a href="#" target="_blank">Facebook</a>
-
-            </div>
-
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div style="margin-bottom: 12px;"><span style="background: #2B579A; color:#fff; font-size:11px; padding:3px 8px; border-radius:3px; font-weight:700;">Upwork</span><p style="font-size:11px; color:#767676; margin-top:3px;">4.5/5 Rating On Lorem</p></div>
+          <div style="margin-bottom: 12px;"><span style="background: #2B2B2B; color:#fff; font-size:11px; padding:3px 8px; border-radius:3px; font-weight:700;">dribbble</span><p style="font-size:11px; color:#767676; margin-top:3px;">9/10 Rating On Ipsum</p></div>
+          <div><span style="background: #1F365C; color:#fff; font-size:11px; padding:3px 8px; border-radius:3px; font-weight:700;">fiverr</span><p style="font-size:11px; color:#767676; margin-top:3px;">4.5/5 Rating On Dorel</p></div>
         </div>
-
-        <div class="copyright">
-            <p>© 2024 Copyright, All Right Reserved</p>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#recommendations">Recommendations</a></li>
+          </ul>
         </div>
+        <div class="footer-col">
+          <h4>Portfolio</h4>
+          <ul>
+            <li><a href="#projects">Frontend Development</a></li>
+            <li><a href="#projects">Backend Development</a></li>
+            <li><a href="#projects">Website Design</a></li>
+            <li><a href="#projects">Machine Learning</a></li>
+            <li><a href="#projects">Problem Solving &amp; DSA</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="#" style="color: #0A66C2; font-weight: 600;">LinkedIn</a></li>
+            <li><a href="#" style="color: #E1306C; font-weight: 600;">Instagram</a></li>
+            <li><a href="#" style="color: #1877F2; font-weight: 600;">Facebook</a></li>
+          </ul>
+        </div>
+      </div>
 
+      <div class="footer-copy">
+        <p>&copy; 2024 Copyright, All Right Reserved</p>
+      </div>
     </div>
+  </footer>
 
-</footer>
-</main>
+</body>
+</html>
