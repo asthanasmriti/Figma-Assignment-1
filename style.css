@@ -445,3 +445,80 @@
         font-size: 11px;
     }
 }
+/* =========================
+   FINAL RESPONSIVE DESIGN
+========================= */
+
+/* Tablet */
+@media (max-width: 1024px) {
+
+    .container {
+        width: calc(100% - 50px);
+    }
+
+    .projects-grid {
+        gap: 20px;
+    }
+
+    .project-card > img {
+        height: 190px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 650px) {
+
+    .container {
+        width: calc(100% - 36px);
+    }
+
+    .section-heading h2 {
+        font-size: 25px;
+    }
+
+    .section-heading p {
+        font-size: 11px;
+    }
+
+    .projects-section,
+    .recommendations-section,
+    .contact-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .project-info h3 {
+        font-size: 14px;
+    }
+
+    .testimonial-card {
+        padding: 20px;
+    }
+
+    .contact-detail {
+        font-size: 10px;
+    }
+
+    .footer-grid {
+        gap: 25px 15px;
+    }
+
+}
+
+/* Small Mobile */
+@media (max-width: 380px) {
+
+    .hero-content h1 {
+        font-size: 25px;
+    }
+
+    .primary-btn {
+        padding: 11px 18px;
+    }
+
+    .project-tags span {
+        font-size: 9px;
+    }
+
+}
